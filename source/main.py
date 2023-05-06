@@ -5,6 +5,7 @@ import os
 import pyaudio
 import openai
 import pyttsx3
+
 openai.api_key = "OPENAI-SECRET-API-KEY"
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
