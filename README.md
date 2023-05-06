@@ -8,3 +8,5 @@ Basically it recognizes your voice, feeds it to ChatGPT and gets a response back
 
 
 [PyAudio](https://pypi.org/project/PyAudio/)
+
+# Github is finally alive again :troll:
