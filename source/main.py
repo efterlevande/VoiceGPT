@@ -15,11 +15,8 @@ engine.setProperty('volume', 1.0)
 root = Tk()
 style = ttk.Style(root)
 root.title("VoiceGPT")
-if os.name == 'nt':  # Windows
-    root.iconbitmap('devdan.ico')
-else:
-    img = PhotoImage(file='devdan.png')
-    root.tk.call('wm', 'iconphoto', root._w, img)
+photo = PhotoImage(file = r'source\devdan.png')
+root.iconphoto(False, photo)
 root.geometry('600x400')
 root.resizable(False,True)
 texte = ""
